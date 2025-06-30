@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Requirements
+To run this project is needed to have installe node and react.
+
+`brew install node`
+
+`npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
