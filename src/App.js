@@ -48,29 +48,8 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center py-10 font-inter">
-      <style>
-        {`
-          /* Importar la fuente Inter de Google Fonts */
-          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
-          /* Estilo para el spinner de carga */
-          .spinner {
-            border: 4px solid rgba(0, 0, 0, 0.1);
-            border-left-color: #3B82F6; /* Color azul de Tailwind */
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
-          }
-
-          @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-          }
-        `}
-      </style>
       <h1 className="text-4xl font-bold text-gray-800 mb-8 tracking-tight">
-        <span className="text-blue-600">Cars</span> <span className="text-gray-900">Shop</span>
+        <span className="text-red-600">Cars</span> <span className="text-gray-900">Shop</span>
       </h1>
 
       <FilterInput
